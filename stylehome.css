@@ -1,0 +1,353 @@
+/* CSS RESET */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.navbar{
+    display: inline-block;
+    
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+   
+}
+.navbar li a{
+    text-decoration: none;
+
+    padding: 5px 20px ;
+    color: black;
+   
+}
+.navbar li a:current{
+    color: grey;
+}
+.navbar li a:hover{
+    /* text-decoration: underline; */
+    border: 0.5px solid white;
+    border-radius: 7px;
+    background-color: white;
+    
+    color: rgb(48, 45, 45);
+}
+.logo{
+    position: absolute;
+    
+    height: fit-content;
+    background-attachment: fixed;
+    background-size: cover;
+    left: 17px;
+    top: 100px;
+    
+    
+    display: inline-block;
+    
+    background-color: #e1e1e1;}
+    
+
+    
+.controls{
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 0px auto;
+    width: 100%;
+    /* border: 2px solid green;
+    border-radius: 2px; */
+    background-color: #2699f7;
+    text-align: center;
+    font-family: 'Noto Sans', sans-ser;
+    font-weight: bolder;
+    border-bottom: 5px solid black;
+    
+    
+    
+    
+}
+.right{
+    border: 1px solid red;
+    position: absolute;
+    right: 189px;
+    top: 69px;
+    display: inline-block;
+    background-color: #161616;
+    font-size: 15px;
+    
+
+}
+.welcome h1{
+   
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    /* border: 1px solid black; */
+    /* padding-left: 50px; */
+    /* border: 2px solid green;
+    border-radius: 2px; */
+    background: transparent;
+    text-align: center;
+    font-family: 'Noto Sans', sans-ser;
+    font-size: 50px;
+
+    
+}
+.welcome p{
+    position: absolute;
+    left:50px;
+    top: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-image: url(/images/photo6147614775459294915.jpg);
+    display: block;
+    margin: auto;
+    width: 45%;
+    padding: 25px 20px;
+    font-family: 'Noto Sans', sans-ser;
+    font-weight: 600;
+    font-size: 15px;
+}
+/* .btn{
+    margin: 5px 5px;
+    padding: 8px 26px;
+    background-color: #00ffd7;
+    border: 1px solid black ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: antiquewhite; }*/
+
+img{
+    width: 140px;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+/* .box{
+    margin:5px 5px;
+}*/
+/*
+.box2{
+    position: absolute;
+    left: 252px;
+    top: 523px;
+    padding: 50px 338px;
+    display: inline-block;
+    border: 2px solid #ee82ee;
+}
+.box3{
+    position: absolute;
+    left: 973px;
+    top: 227px;
+    padding: 256px 118px;
+    display: inline-block;
+    border: 2px solid #ee82ee;
+}
+.box4{
+    position: absolute;
+    left: 252px;
+    top: 352px;
+    padding: 68px 78px;
+    display: inline-block;
+    border: 2px solid #ee82ee;
+}
+.box5{
+    position: absolute;
+    left: 527px;
+    top: 227px;
+    padding: 50px 91px;
+    display: inline-block;
+    border: 2px solid #ee82ee;
+}
+.box6{
+    position: absolute;
+    left: 445px;
+    top: 352px;
+    padding: 50px 132px;
+    display: inline-block;
+    border: 2px solid #ee82ee;
+}
+
+.box7{
+    position: absolute;
+    left: 756px;
+    top: 227px;
+    padding: 82px 86px;
+    display: inline-block;
+    border: 2px solid #ee82ee; }*/
+
+    .box2{
+        position: absolute;
+        left: 252px;
+        top: 700px;
+        padding: 50px 338px;
+        display: inline-block;
+        border: 2px solid #ee82ee;
+    }
+.submenu1{
+    display: none;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 7px;
+    
+}
+.controls ul li:hover .submenu1{
+display: block;
+position: absolute;
+
+margin-top: 7px;
+margin-left: -15px;
+
+}
+.controls ul li:hover .submenu1 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.controls ul li:hover .submenu1 li{
+    display: block;
+    
+    width: 140px;
+    margin: 0px 0px;
+    padding: 10px;
+    /* border-bottom: 1px solid white; */
+    background:  #f2ecec;
+    ;
+    text-align: center;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 15px;
+    font-weight: 500;
+}
+.controls ul li:hover .submenu1 li:last-child{
+    border-bottom: none;
+}
+.controls ul li:hover .submenu1 li a:hover{
+    color: black;
+}
+
+
+/* Submenu 2 start */
+
+
+.submenu2{
+    display: none;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 7px;
+}
+.controls ul li ul li:hover .submenu2{
+display: block;
+position: absolute;
+
+left: 160px;
+top: 0px;
+
+}
+.controls ul li ul li:hover .submenu2 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.controls ul li ul li:hover .submenu2 li{
+    display: block;
+    
+    width: 140px;
+    margin: 0px 0px;
+    padding: 10px;
+    /* border-bottom: 1px solid white; */
+    background: #f4f2f0;
+    text-align: left;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 15px;
+}
+.controls ul li ul li:hover .submenu2 li:last-child{
+    border-bottom: none;
+}
+.controls ul li ul li:hover .submenu2 li a:hover{
+    color: black;}
+.contact{
+    border: 4px solid black;
+    border-radius: 10px;
+    /* display: inline-block; */
+    /* position:absolute; */
+    width: 80%;
+    /* left: 132px; */
+    /* top: 229px; */
+    margin: auto;
+    margin-top: 150px;
+    background-image: url(/images/photo6147614775459294915.jpg);
+    padding: 10px;
+
+}
+.contact h2{
+    font-size: 35px;
+    
+}
+.contact p{
+    font-size: 25px;
+}
+#timetable{
+    color: #ebe7e7;
+}
+.timetable {
+    margin: 2px 0px;
+    font-size: 0.9em;
+    min-width: fit-content;
+    text-align: left;
+    text-decoration: none;
+    border-color: white;
+    border-spacing: 0px;
+    background-color: #ffd93b;
+}
+
+.timetable thead tr {
+    background-color: black;
+    color: #ffd93b;
+    font-weight: bold;
+}
+
+.days {
+    background-color: black;
+    color: #ffd93b;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+
+.timetable a {
+    text-decoration: none;
+    font-weight: 800;
+    pointer-events: stroke;
+    color: black;
+
+}
+header{
+    position: sticky;
+    top:0px;
+}
+.short {
+    color: blue;
+}
+
+.timetable a:hover {
+    background-color: black;
+    color: #ffd93b;
+}
+.timecss{
+    display: block;
+    padding:50px;
+    margin: 100px auto;
+    width: 73%;
+    /* border: 2px solid green;
+    border-radius: 2px; */
+    background-image: url(/images/photo6147614775459294915.jpg);
+    border: 4px solid black;
+    border-radius: 10px;
+    
+}
+
+
+
