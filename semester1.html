@@ -30,7 +30,7 @@
             /* padding: 20px; */
             height: auto;
             width: 100%;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             display: flex;
             flex-wrap: wrap;
             
@@ -38,24 +38,43 @@
             justify-content: space-between;
             justify-content: space-around;
             align-items: center;
-            background-image: url(/images/photo6147614775459294915.jpg);
+            /* background-image: url(/images/photo6147614775459294915.jpg); */
+            
         }
 
         .item {
             /* background-color: tomato; */
             display: flex;
             border: 2px solid green;
-            margin: 10px;
+            border-radius: 7px;
+            margin: 15px;
             padding: 3px;
             height: 150px;
             width: 150px;
             /* text-align: center; */
             align-items: center;
             justify-content: center;
+            color: black;
+            box-shadow: 7px 7px 5px gray;
+            background-color: white;
+            text-shadow: 1px 1px 0.5px gray;
+            
         }
-        #item-1
+        .lastyear
         {
-            background-image: url(/images/MA102.png);
+            display: flex;
+            border: 1px solid black;
+            margin: 25px 0px;
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-shadow: 1px 1px 0.5px gray;
+            box-shadow: 7px 7px 5px gray;
+            
+
         }
     </style>
 </head>
@@ -105,14 +124,24 @@
     </header>
     <div class="head">Semester 1</div>
     <h2 style="text-align: center;">Click on the concerned subject</h2>
-    <div class="container">
-        <div class="item" id="item-1">First Box</div>
-        <div class="item" id="item-2">Second Box</div>
-        <div class="item" id="item-3">Third Box</div>
-        <div class="item" id="item-4">Fourth Box</div>
-        <div class="item" id="item-5">Fifth Box</div>
-        <div class="item" id="item-6">Sixth Box</div>
+    <div class="container" style="font-weight: bold; font-size: 30px;">
+        
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="MA101 drive link"><div class="item" id="item-1">MA101</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="EE103 drive link"><div class="item" id="item-1">EE103</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="HS103 drive link"><div class="item" id="item-1">HS103</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="CE101 drive link"><div class="item" id="item-1">CE101</div></a>
+        
     </div>
+    <div class="container" style="font-weight: bold; font-size: 30px;">
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="PH103 drive link"><div class="item" id="item-1">PH103</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="ME110 drive link"><div class="item" id="item-1">ME110</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="CH103 drive link"><div class="item" id="item-1">CH103</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="CH112 drive link"><div class="item" id="item-1">CH112</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="PH112 drive link"><div class="item" id="item-1">PH112</div></a>
+    </div>
+    <div class="container" style="font-weight: bold; font-size: 30px;">
+        <a href="" style="text-decoration: none;" title="Last year material of sem 1"><div class="lastyear">Last year Drive/links</div></a>
+        </div>
 </body>
 
 </html>

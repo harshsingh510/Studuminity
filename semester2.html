@@ -31,7 +31,7 @@
             /* padding: 20px; */
             height: auto;
             width: 100%;
-            border: 2px solid black;
+            /* border: 2px solid black; */
             display: flex;
             flex-wrap: wrap;
             
@@ -39,7 +39,7 @@
             justify-content: space-between;
             justify-content: space-around;
             align-items: center;
-            background-image: url(/images/photo6147614775459294915.jpg);
+            /* background-image: url(/images/photo6147614775459294915.jpg); */
             
         }
 
@@ -47,14 +47,35 @@
             /* background-color: tomato; */
             display: flex;
             border: 2px solid green;
-            margin: 10px;
+            border-radius: 7px;
+            margin: 15px;
             padding: 3px;
             height: 150px;
             width: 150px;
             /* text-align: center; */
             align-items: center;
             justify-content: center;
+            color: black;
+            box-shadow: 7px 7px 5px gray;
+            background-color: white;
+            text-shadow: 1px 1px 0.5px gray;
             
+        }
+        .lastyear
+        {
+            display: flex;
+            border: 1px solid black;
+            margin: 25px 0px;
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-shadow: 1px 1px 0.5px gray;
+            box-shadow: 7px 7px 5px gray;
+            
+
         }
 
         /* #item-1 {
@@ -109,17 +130,24 @@
     <div class="head">Semester 2</div>
     
     <h2 style="text-align: center;">Click on the concerned subject</h2>
-    <div class="container">
+    <div class="container" style="font-weight: bold; font-size: 30px;">
         
-        <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">MA102</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;" title="MA102 DRIVE"><div class="item" id="item-1">MA102</div></a>
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">CS102</div></a>
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">CB102</div></a>
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">CH103</div></a>
+        
+    </div>
+    <div class="container" style="font-weight: bold; font-size: 30px;">
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">PH103</div></a>
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">ME102</div></a>
         <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">CE102</div></a>
-        
+        <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">CH112</div></a>
+        <a href="https://google.com" target="_blank" style="text-decoration: none;"><div class="item" id="item-1">PH112</div></a>
     </div>
+    <div class="container" style="font-weight: bold; font-size: 30px;">
+        <a href="" style="text-decoration: none;"><div class="lastyear">Last year Drive/links</div></a>
+        </div>
 </body>
 
 </html>
